@@ -12,7 +12,7 @@ SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
 
 #Base directry of the project
 
-SERVICE_ACCOUNT_FILE = 'D:\\TgRobot\\price_updater\\tasks\\credintials.json'
+SERVICE_ACCOUNT_FILE = 'credintials.json'
 credentials = service_account.Credentials.from_service_account_file(SERVICE_ACCOUNT_FILE, scopes = SCOPES)
 
 # The ID and range of a sample spreadsheet, can be changed in file google_config
