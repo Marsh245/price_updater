@@ -16,7 +16,7 @@ SERVICE_ACCOUNT_FILE = 'credintials.json'
 credentials = service_account.Credentials.from_service_account_file(SERVICE_ACCOUNT_FILE, scopes = SCOPES)
 
 # The ID and range of a sample spreadsheet, can be changed in file google_config
-SPREADSHEET_ID = '13gQBU3Q_npIco5O7iK4Ei6q1EiogqEscOl6iKG5hu9E'
+SPREADSHEET_ID = 'id'
 RANGE_NAME = 'Apple ЯМ'
 
 
